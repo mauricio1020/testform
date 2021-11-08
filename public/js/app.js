@@ -37647,7 +37647,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-body" }, [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-md-6" }, [
-                  _c("label", [_vm._v("Tipo de identificación454344343434")]),
+                  _c("label", [_vm._v("Tipo de identificación")]),
                   _vm._v(" "),
                   _c(
                     "select",

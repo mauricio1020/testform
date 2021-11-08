@@ -15,7 +15,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Tipo de identificación454344343434</label>
+                                <label>Tipo de identificación</label>
                                 <select class="form-control form-control-lg select2">
                                     <option>Cédula de ciudadania</option>
                                     <option>Cédula de extranjería</option>
