@@ -1,7 +1,13 @@
 <template>
     <div>
         <div class="card-body">
+
             <div class="container-fluid">
+                <div class="row">
+                    <div class="col align-self-center justify-content-center mx-auto">
+                        <img src="https://locatelcolombia.vteximg.com.br/arquivos/logo.png" class="img-fluid mx-auto d-block w-50" alt="Responsive image">
+                    </div>
+                </div>
                 <div class="card card-success">
                     <div class="card-header">
                         <h3 class="card-title">Gestión de clientes</h3>
@@ -9,7 +15,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <label>Tipo de identificación</label>
+                                <label>Tipo de identificación666</label>
                                 <select class="form-control form-control-lg select2">
                                     <option>Cédula de ciudadania</option>
                                     <option>Cédula de extranjería</option>
@@ -77,6 +83,14 @@
                             <div class="col-md-3">
                                 <label>Dirección</label>
                                 <input class="form-control form-control-lg" type="text" placeholder="dirección">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label">
+                                    Acepta las politica de tratamiento de datos
+                                </label>
                             </div>
                         </div>
                         <div class="row-cols-6 mt-3">
