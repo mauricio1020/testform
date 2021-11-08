@@ -1,7 +1,6 @@
 <template>
     <div>
         <div class="card-body">
-
             <div class="container-fluid">
                 <div class="row">
                     <div class="col align-self-center justify-content-center mx-auto">
@@ -10,7 +9,7 @@
                 </div>
                 <div class="card card-success">
                     <div class="card-header">
-                        <h3 class="card-title">Gestión de clientes</h3>
+                        <h3 class="card-title">Gestión De Clientes</h3>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -28,8 +27,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label>Identificación</label>
-                                <input class="form-control form-control-lg" type="number"
-                                       placeholder="Número De Identificacion">
+                                <input class="form-control form-control-lg" type="number" placeholder="Número De Identificacion">
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -42,12 +40,10 @@
                                 <input class="form-control form-control-lg" readonly type="text"
                                        value="persona natural">
                             </div>
-
                             <div class="col-md-3">
                                 <label>Teléfono</label>
                                 <input class="form-control form-control-lg" type="number" placeholder="Teléfono">
                             </div>
-
                             <div class="col-md-3">
                                 <label>Email</label>
                                 <input class="form-control form-control-lg" type="number" placeholder="Email">
@@ -79,7 +75,6 @@
                                     <option>Medellin</option>
                                 </select>
                             </div>
-
                             <div class="col-md-3">
                                 <label>Dirección</label>
                                 <input class="form-control form-control-lg" type="text" placeholder="Dirección">
@@ -89,7 +84,7 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="">
                                 <label class="form-check-label">
-                                    Acepta las política de tratamiento de datos
+                                    Acepta las políticas de tratamiento de datos
                                 </label>
                             </div>
                         </div>
@@ -103,9 +98,7 @@
             </div>
         </div>
     </div>
-
 </template>
-
 <script>
 export default {
     name: "FormComponent"

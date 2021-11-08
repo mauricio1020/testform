@@ -2009,13 +2009,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "FormComponent"
 });
@@ -37640,7 +37633,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "card card-success" }, [
             _c("div", { staticClass: "card-header" }, [
               _c("h3", { staticClass: "card-title" }, [
-                _vm._v("Gestión de clientes"),
+                _vm._v("Gestión De Clientes"),
               ]),
             ]),
             _vm._v(" "),
@@ -37797,7 +37790,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("label", { staticClass: "form-check-label" }, [
                     _vm._v(
-                      "\n                                Acepta las política de tratamiento de datos\n                            "
+                      "\n                                Acepta las políticas de tratamiento de datos\n                            "
                     ),
                   ]),
                 ]),
