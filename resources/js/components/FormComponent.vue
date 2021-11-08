@@ -29,13 +29,13 @@
                             <div class="col-md-6">
                                 <label>Identificación</label>
                                 <input class="form-control form-control-lg" type="number"
-                                       placeholder="número de identificacion">
+                                       placeholder="Número De Identificacion">
                             </div>
                         </div>
                         <div class="row mt-3">
                             <div class="col-md-3">
                                 <label>Nombre</label>
-                                <input class="form-control form-control-lg" type="text" placeholder="nombre">
+                                <input class="form-control form-control-lg" type="text" placeholder="Nombre">
                             </div>
                             <div class="col-md-3">
                                 <label>Tipo de persona</label>
@@ -45,12 +45,12 @@
 
                             <div class="col-md-3">
                                 <label>Teléfono</label>
-                                <input class="form-control form-control-lg" type="number" placeholder="teléfono">
+                                <input class="form-control form-control-lg" type="number" placeholder="Teléfono">
                             </div>
 
                             <div class="col-md-3">
                                 <label>Email</label>
-                                <input class="form-control form-control-lg" type="number" placeholder="teléfono">
+                                <input class="form-control form-control-lg" type="number" placeholder="Email">
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -82,14 +82,14 @@
 
                             <div class="col-md-3">
                                 <label>Dirección</label>
-                                <input class="form-control form-control-lg" type="text" placeholder="dirección">
+                                <input class="form-control form-control-lg" type="text" placeholder="Dirección">
                             </div>
                         </div>
                         <div class="col-md-6 mt-3">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="">
                                 <label class="form-check-label">
-                                    Acepta las politica de tratamiento de datos
+                                    Acepta las política de tratamiento de datos
                                 </label>
                             </div>
                         </div>

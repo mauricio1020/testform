@@ -37679,7 +37679,7 @@ var staticRenderFns = [
                     staticClass: "form-control form-control-lg",
                     attrs: {
                       type: "number",
-                      placeholder: "número de identificacion",
+                      placeholder: "Número De Identificacion",
                     },
                   }),
                 ]),
@@ -37691,7 +37691,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control form-control-lg",
-                    attrs: { type: "text", placeholder: "nombre" },
+                    attrs: { type: "text", placeholder: "Nombre" },
                   }),
                 ]),
                 _vm._v(" "),
@@ -37713,7 +37713,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control form-control-lg",
-                    attrs: { type: "number", placeholder: "teléfono" },
+                    attrs: { type: "number", placeholder: "Teléfono" },
                   }),
                 ]),
                 _vm._v(" "),
@@ -37722,7 +37722,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control form-control-lg",
-                    attrs: { type: "number", placeholder: "teléfono" },
+                    attrs: { type: "number", placeholder: "Email" },
                   }),
                 ]),
               ]),
@@ -37783,7 +37783,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control form-control-lg",
-                    attrs: { type: "text", placeholder: "dirección" },
+                    attrs: { type: "text", placeholder: "Dirección" },
                   }),
                 ]),
               ]),
@@ -37797,7 +37797,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("label", { staticClass: "form-check-label" }, [
                     _vm._v(
-                      "\n                                Acepta las politica de tratamiento de datos\n                            "
+                      "\n                                Acepta las política de tratamiento de datos\n                            "
                     ),
                   ]),
                 ]),
