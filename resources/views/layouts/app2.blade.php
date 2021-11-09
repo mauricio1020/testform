@@ -44,7 +44,7 @@
         </div>
     </div>
     <footer class="main-footer">
-        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">Locatel</a>.</strong>
+        <strong>Copyright &copy; 2021-2022 <a href="https://adminlte.io">Locatel</a>.</strong>
         All rights reserved.
     </footer>
     <aside class="control-sidebar control-sidebar-dark">
