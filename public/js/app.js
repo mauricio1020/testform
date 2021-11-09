@@ -2009,6 +2009,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "FormComponent"
 });
@@ -37639,7 +37651,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-md-6" }, [
+                _c("div", { staticClass: "col-md-4" }, [
                   _c("label", [_vm._v("Tipo de identificación")]),
                   _vm._v(" "),
                   _c(
@@ -37665,7 +37677,7 @@ var staticRenderFns = [
                   ),
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-md-6" }, [
+                _c("div", { staticClass: "col-md-4" }, [
                   _c("label", [_vm._v("Identificación")]),
                   _vm._v(" "),
                   _c("input", {
@@ -37673,6 +37685,19 @@ var staticRenderFns = [
                     attrs: {
                       type: "number",
                       placeholder: "Número De Identificacion",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-4" }, [
+                  _c("label", [_vm._v("Tipo de persona")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control form-control-lg",
+                    attrs: {
+                      readonly: "",
+                      type: "text",
+                      value: "persona natural",
                     },
                   }),
                 ]),
@@ -37689,15 +37714,11 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-3" }, [
-                  _c("label", [_vm._v("Tipo de persona")]),
+                  _c("label", [_vm._v("Apellidos")]),
                   _vm._v(" "),
                   _c("input", {
                     staticClass: "form-control form-control-lg",
-                    attrs: {
-                      readonly: "",
-                      type: "text",
-                      value: "persona natural",
-                    },
+                    attrs: { type: "text", placeholder: "Apellidos" },
                   }),
                 ]),
                 _vm._v(" "),
@@ -37744,13 +37765,13 @@ var staticRenderFns = [
                     "select",
                     { staticClass: "form-control form-control-lg select2" },
                     [
-                      _c("option", [_vm._v("Cundimarca")]),
+                      _c("option", [_vm._v("Cundinamarca")]),
                       _vm._v(" "),
                       _c("option", [_vm._v("Bogota")]),
                       _vm._v(" "),
-                      _c("option", [_vm._v("Atlantico")]),
+                      _c("option", [_vm._v("Atlántico")]),
                       _vm._v(" "),
-                      _c("option", [_vm._v("Antioquia")]),
+                      _c("option", [_vm._v("Antioquía")]),
                     ]
                   ),
                 ]),
@@ -37766,7 +37787,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("option", [_vm._v("Barranquilla")]),
                       _vm._v(" "),
-                      _c("option", [_vm._v("Medellin")]),
+                      _c("option", [_vm._v("Medellín")]),
                     ]
                   ),
                 ]),
@@ -37791,6 +37812,19 @@ var staticRenderFns = [
                   _c("label", { staticClass: "form-check-label" }, [
                     _vm._v(
                       "\n                                Acepta las políticas de tratamiento de datos\n                            "
+                    ),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-check" }, [
+                  _c("input", {
+                    staticClass: "form-check-input",
+                    attrs: { type: "checkbox", value: "" },
+                  }),
+                  _vm._v(" "),
+                  _c("label", { staticClass: "form-check-label" }, [
+                    _vm._v(
+                      "\n                                Acepta tratamiento de datos por habeas data\n                            "
                     ),
                   ]),
                 ]),

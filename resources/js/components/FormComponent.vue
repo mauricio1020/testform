@@ -13,7 +13,7 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <label>Tipo de identificación</label>
                                 <select class="form-control form-control-lg select2">
                                     <option>Cédula de ciudadania</option>
@@ -25,9 +25,15 @@
                                     <option>Tarjeta de identidad</option>
                                 </select>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <label>Identificación</label>
                                 <input class="form-control form-control-lg" type="number" placeholder="Número De Identificacion">
+                            </div>
+
+                            <div class="col-md-4">
+                                <label>Tipo de persona</label>
+                                <input class="form-control form-control-lg" readonly type="text"
+                                       value="persona natural">
                             </div>
                         </div>
                         <div class="row mt-3">
@@ -36,10 +42,10 @@
                                 <input class="form-control form-control-lg" type="text" placeholder="Nombre">
                             </div>
                             <div class="col-md-3">
-                                <label>Tipo de persona</label>
-                                <input class="form-control form-control-lg" readonly type="text"
-                                       value="persona natural">
+                                <label>Apellidos</label>
+                                <input class="form-control form-control-lg" type="text" placeholder="Apellidos">
                             </div>
+
                             <div class="col-md-3">
                                 <label>Teléfono</label>
                                 <input class="form-control form-control-lg" type="number" placeholder="Teléfono">
@@ -61,10 +67,10 @@
                             <div class="col-md-3">
                                 <label>Departamento</label>
                                 <select class="form-control form-control-lg select2">
-                                    <option>Cundimarca</option>
+                                    <option>Cundinamarca</option>
                                     <option>Bogota</option>
-                                    <option>Atlantico</option>
-                                    <option>Antioquia</option>
+                                    <option>Atlántico</option>
+                                    <option>Antioquía</option>
                                 </select>
                             </div>
                             <div class="col-md-3">
@@ -72,7 +78,7 @@
                                 <select class="form-control form-control-lg select2">
                                     <option>Bogotá</option>
                                     <option>Barranquilla</option>
-                                    <option>Medellin</option>
+                                    <option>Medellín</option>
                                 </select>
                             </div>
                             <div class="col-md-3">
@@ -85,6 +91,12 @@
                                 <input class="form-check-input" type="checkbox" value="">
                                 <label class="form-check-label">
                                     Acepta las políticas de tratamiento de datos
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <label class="form-check-label">
+                                    Acepta tratamiento de datos por habeas data
                                 </label>
                             </div>
                         </div>
